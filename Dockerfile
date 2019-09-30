@@ -16,7 +16,6 @@ RUN apt-get update \
  
 # Copy file
 COPY . /var/www/html/
-COPY apache-conf /etc/apache2/apache2.conf
  
 # Expose Apache
 EXPOSE 80
